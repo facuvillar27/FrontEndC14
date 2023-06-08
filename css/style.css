@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 5%;
+}
+
+.upperHeader {
+    display: flex;
+    height: 27%;
+    background-color: #d1891c;
+    align-items: center;
+}
+
+.upperHeader p {
+    font-size: 0.5em;
+    padding: 0px 15px;
+    color: #000000;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.downHeader {
+    display: flex;
+    background-color: #00669f;
+    box-shadow: 0px 0.06em 0.05em rgba(0, 0, 0, 0.25);
+    height: 73%;
+    align-items: center;
+}
+
+.downHeader h1 {
+    font-size: 0.75em;
+    padding: 0px 15px;
+    color: #ffffff;
+    margin: 0px;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    height: 91%;
+    margin: 0.3em 0.01em 0.3em 0.01em;
+    justify-content: center;
+}
+
+/* .imagenSuperior {
+    background-image: url("../img/fondo.png");
+    width: 300px;
+    height: 193px;
+    border-radius: 16px 16px 0px 0px;
+} */
+
+/* .imagenSuperior2 {
+    background-image: url("../img/fondo1.png");
+    width: 300px;
+    height: 193px;
+    border-radius: 16px 16px 0px 0px;
+} */
+
+.caja {
+    width: 40%;
+    height: 33%;
+    /* margin: 0px 30px; */
+    padding: 0px;
+    background-color: #F3F3F3;
+    /* box-sizing: border-box; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px 16px 0px 0px;
+}
+
+/* .caja3 {
+    width: 300px;
+    height: 529px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F3F3F3;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    border-radius: 16px 16px 0px 0px;
+} */
+
+/* .corazon {
+    position: relative;
+    left: 21px;
+    top: 15.88px
+} */
+
+/* .fotoPerfil {
+    border-radius: 100%; 
+    position: relative;
+    left: 90px;
+    bottom: 65px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));     
+} */
+
+/* .caja div h3, .caja3 div h3 {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+} */
+
+/* .caja div p, .caja3 div p {
+    font-size: 16px;
+    margin: 16px;
+    position: relative;
+    bottom: 95px;
+} */
+
+/* .caja button, .caja3 button {
+    width: 130px;
+    height: 48px;
+    background-color: #00669f;
+    position: relative;
+    left: 85px;
+    bottom: 80px;
+    border-width: 0px;
+} */
+
+/* .caja button span, .caja3 button span {
+    font-size: 15px;
+    color: #F3F3F3;
+} */
+
+/* @media screen { min-width: 480px
+    
+} */
+
+@media (min-width: 480px) {
+    
+    body {
+      background-color: black
+      ;
+    }
+}
+  
